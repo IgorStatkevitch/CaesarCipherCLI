@@ -31,11 +31,11 @@ $ node index.js -a encode -s 7 -i "./input.txt" -o "./output.txt"
 ```
 
 ```bash
-$ node index.js --action encode --shift 7 --input plain.txt --output encoded.txt
+$ node index.js --action encode --shift 7 --input input.txt --output output.txt
 ```
 
 ```bash
-$ node index.js --action decode --shift 7 --input decoded.txt --output plain.txt
+$ node index.js --action decode --shift 7 --input output.txt --output decoded.txt
 ```
 **Result example:**
 
