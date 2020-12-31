@@ -1,0 +1,14 @@
+{
+  "name": "ciphercli",
+  "version": "1.0.0",
+  "description": "RS School",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IgorStatkevitch",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1"
+  }
+}
