@@ -27,15 +27,15 @@ $ node caesar_cipher_cli/index.js --action <encode|decode> --shift <number> [--i
 *In caesar_cipher_cli directory*
 
 ```bash
-$ node index.js -a encode -s 7 -i "./input.txt" -o "./output.txt"
+$ node 1.index.js -a encode -s 7 -i "./input.txt" -o "./output.txt"
 ```
 
 ```bash
-$ node index.js --action encode --shift 7 --input input.txt --output output.txt
+$ node 1.index.js --action encode --shift 7 --input input.txt --output output.txt
 ```
 
 ```bash
-$ node index.js --action decode --shift 7 --input output.txt --output decoded.txt
+$ node 1.index.js --action decode --shift 7 --input output.txt --output decoded.txt
 ```
 **Result example:**
 
