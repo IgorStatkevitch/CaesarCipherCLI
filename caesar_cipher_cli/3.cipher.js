@@ -1,5 +1,5 @@
 const stream = require('stream');
-const { shiftChar } = require('./shiftChar');
+const { shiftChar } = require('./2.shiftChar');
 
 class Cipher extends stream.Transform {
   constructor(shift) {

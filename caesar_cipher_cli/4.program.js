@@ -1,8 +1,7 @@
 const { program } = require('commander');
 const fs = require('fs');
-const cipher = require('./cipher');
+const cipher = require('./3.cipher');
 const path = require('path');
-const { dir } = require('console');
 
 program
   .storeOptionsAsProperties(false)

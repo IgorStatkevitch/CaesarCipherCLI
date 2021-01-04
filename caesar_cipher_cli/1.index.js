@@ -1,4 +1,4 @@
-const { inputStream, outputStream, transformStream } = require('./program');
+const { inputStream, outputStream, transformStream } = require('./4.program');
 const { pipeline } = require('stream');
 
 async function runProgram() {
